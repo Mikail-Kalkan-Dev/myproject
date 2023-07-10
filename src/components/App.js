@@ -1,4 +1,5 @@
 import Banner from './Banner'
+import logo from '../assets/logo.png'
 import Cart from './Cart'
 import Recommendation from './Recommendation'
 import ShoppingList from './ShoppingList'
