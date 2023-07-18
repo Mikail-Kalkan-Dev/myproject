@@ -3,6 +3,8 @@ import logo from '../assets/logo.png'
 import Cart from './Cart'
 import Recommendation from './Recommendation'
 import ShoppingList from './ShoppingList'
+import QuestionForm from './QuestionForm'
+import Footer from './Footer'
 
 function App() {
 	return (
@@ -13,7 +15,9 @@ function App() {
 				<Recommendation/>
 			</Banner>
 			<Cart />
+			<QuestionForm />
 			<ShoppingList />
+			<Footer/>
 		</div>
 	)
 }
