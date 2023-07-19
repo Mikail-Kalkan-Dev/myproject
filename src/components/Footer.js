@@ -19,17 +19,13 @@ function Footer() {
 			<div className='lmj-footer-elem'>
 				Pour les passionné·e·s de plantes 🌿🌱🌵
 			</div>
-			<div className='lmj-footer-elem'>
-				Laissez-nous votre mail :
-
-				<input
-				type="email" 
+			<div className='lmj-footer-elem'>Laissez-nous votre mail :</div>
+			<input
 				placeholder='Entrez votre mail'
 				onChange={handleInput}
 				value={inputValue}
 				onBlur={handleBlur}
-				/>
-			</div>
+			/>
 		</footer>
 	)
 }
