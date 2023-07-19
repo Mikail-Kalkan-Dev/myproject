@@ -6,7 +6,7 @@ function handleClick(plant_name) {
 	// console.log('✨ Ceci est mon event :', e)
 }
 
-function PlantItem ({plant_id, plant_name, plant_cover,plant_water,plant_light,plant_bestSale }) {
+function PlantItem ({plant_name, plant_cover,plant_water,plant_light,plant_bestSale }) {
 
 	return (
 
