@@ -1,8 +1,9 @@
 import CareScale from "./CareScale"
+import '../styles/PlantItem.css'
 
-function handleClick(e) {
-    // alert(`Vous voulez acheter 1 ${plantName} ? Très bon choix 🌱✨`)
-	console.log('✨ Ceci est mon event :', e)
+function handleClick(plant_name) {
+    alert(`Vous voulez acheter 1 ${plant_name} ? Très bon choix 🌱✨`)
+	// console.log('✨ Ceci est mon event :', e)
 }
 
 function PlantItem ({plant_id, plant_name, plant_cover,plant_water,plant_light,plant_bestSale }) {

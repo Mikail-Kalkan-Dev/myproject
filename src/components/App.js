@@ -6,6 +6,9 @@ import ShoppingList from './ShoppingList'
 import QuestionForm from './QuestionForm'
 import Footer from './Footer'
 
+import '../styles/Layout.css'
+
+
 function App() {
 	return (
 		<div>
@@ -14,10 +17,12 @@ function App() {
 				<h1 className='lmj-title'>La maison jungle</h1>
 				<Recommendation/>
 			</Banner>
-			<Cart />
 			<QuestionForm />
-			<ShoppingList />
-			<Footer/>
+			<div className='lmj-layout-inner'>
+				<Cart />
+				<ShoppingList />
+			</div>
+			<Footer />
 		</div>
 	)
 }

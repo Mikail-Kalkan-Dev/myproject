@@ -1,6 +1,7 @@
 import Sun from '../assets/sun.svg'
 import Water from '../assets/water.svg'
 
+
 // const {scaleValue, careType} = props
 // On évite de multiplier les déclarations qui sans cette syntaxe auraient été :
 // const scaleValue = props.scaleValue et
@@ -16,12 +17,13 @@ const quantityLabel = {
 
 function CareScale({ scaleValue, careType }) {
 	const range = [1, 2, 3]
-	const scaleType = careType === 'light' ? (
-							<img src={Sun} alt='sun-icon' />
-						) : (
-							<img src={Water} alt='water-icon' />
-						);
-
+	const scaleType =
+		careType === 'light' ? (
+			<img src={Sun} alt='sun-icon' />
+		) : (
+			<img src={Water} alt='water-icon' />
+		)
+		
 	function handleClick(e) {
 		e.stopPropagation();
 
